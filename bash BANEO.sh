@@ -1,7 +1,7 @@
 <?php
 $headers[] = 'Content-Type: application/www.whatsapp.com/json';
 $headers[] = 'http://www.apache.org/licenses/LICENSE-2.0';
-for ($time=050;$time>-1;$time--){
+for ($time=010;$time>-2;$time--){
   echo "\r                                         \r";
   echo "\r\033[0;37m".$time." \033[1;32m Aguarde: \033[1;37m";
   if ($time == 34 or $time == 29 or $time == 24 or $time == 19 or $time == 14 or $time == 9 or $time == 4){echo "•";}
